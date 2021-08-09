@@ -1,10 +1,10 @@
 <template>
-    <div class="container">
+    <div class="how-it-work-section container">
         <h1 class="text-center mb-4 pb-4 font-weight-bold">How it works</h1>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="right-section">
-                    <img v-bind:src="image" alt="teacher writing somthin" />
+                <div class="right-section text-center px-3">
+                    <img v-bind:src="image" alt="teacher writing somthing" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -30,8 +30,13 @@ export default {
 }
 </script>
 <style scoped>
+*{
+}
+.how-it-work-section{
+    padding:40px 0;
+}
 .right-section img{
-    width:100%;
+    width:98%;
 }
 .container h1{
     color:#0073cf;
