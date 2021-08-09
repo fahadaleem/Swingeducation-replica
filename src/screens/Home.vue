@@ -8,7 +8,7 @@
 </template>
 <script>
 import Features from "../components/Features.vue"
-import HowItWorks from "../components/HowItWorks/HowItWorks.vue"
+import HowItWorks from "../components/howItWorks/HowItWorks.vue"
 
 export default {
   name: "Home",

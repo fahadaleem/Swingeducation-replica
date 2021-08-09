@@ -17,7 +17,7 @@
     </div>
 </template>
 <script>
-import Stepper from "./Components/HowItWorksStepper.vue"
+import Stepper from "./components/HowItWorksStepper.vue"
 export default {
     components:{
         'steps':Stepper
