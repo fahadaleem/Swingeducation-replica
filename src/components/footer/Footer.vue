@@ -1,29 +1,33 @@
 <template>
   <footer class="footer">
-    <div class="container">
-      <div class="row align-center">
-        <div class="col-lg-7">
-          <div class="row">
-            <template v-for="(menu, index) in footerMenus">
-              <div class="col-lg-4" v-bind:key="index">
-                <footerLinks
-                  v-bind:menuName="menu.menuName"
-                  v-bind:menuLinks="menu.menuLinks"
-                ></footerLinks>
-              </div>
-            </template>
+    <div class="top-footer">
+      <div class="container">
+        <div class="row align-center">
+          <div class="col-lg-7">
+            <div class="row">
+              <template v-for="(menu, index) in footerMenus">
+                <div class="col-lg-4" v-bind:key="index">
+                  <footerLinks
+                    v-bind:menuName="menu.menuName"
+                    v-bind:menuLinks="menu.menuLinks"
+                  ></footerLinks>
+                </div>
+              </template>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-5">
-          <signupActions></signupActions>
+          <div class="col-lg-5">
+            <signupActions></signupActions>
+          </div>
         </div>
       </div>
     </div>
+    <footerBottom></footerBottom>
   </footer>
 </template>
 <script>
 import FooterLinks from "./components/FooterLinks.vue";
 import SignupActions from "./components/SignupActions.vue";
+import FooterBottom from "./components/FooterBottom.vue";
 export default {
   name: "Footer",
   data() {
@@ -109,12 +113,13 @@ export default {
   },
   components: {
     footerLinks: FooterLinks,
-    signupActions: SignupActions
+    signupActions: SignupActions,
+    footerBottom: FooterBottom
   }
 };
 </script>
 <style scoped>
-.footer {
+.top-footer {
   background-image: url(/src/assets/tile-bg_paintdabs@2x.png);
   background-repeat: repeat;
   background-position: center;
