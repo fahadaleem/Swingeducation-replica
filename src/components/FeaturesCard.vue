@@ -18,7 +18,6 @@ export default {
   props: ["image", "title", "description"],
   data() {
     return {
-      image: "src/assets/icon_schedule.png"
     };
   }
 };

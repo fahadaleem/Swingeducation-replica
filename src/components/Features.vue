@@ -13,6 +13,11 @@
           </div>
         </template>
       </div>
+ <div class="smiling-teacher-section">
+        <img v-bind:src="teacherImage" alt="Teacher Smiling">
+    </div>  
+   
+
     </div>
   </div>
 </template>
@@ -42,7 +47,8 @@ export default {
           description: "Find opportunities that fit your schedule.",
           image: "src/assets/icon_schedule.png"
         }
-      ]
+      ],
+      teacherImage:"src/assets/smiling-teacher.jpg"
     };
   }
 };
@@ -60,8 +66,18 @@ export default {
   font-size: 35px;
 }
 
-.features-cards {
+.smiling-teacher-section{
+    padding: 85px 0 ;
+    
+}
+
+.smiling-teacher-section img{
+    height: 100%;
+    width:100%;
+}
+
+/* .features-cards {
   display: flex;
   align-items: center;
-}
+} */
 </style>
