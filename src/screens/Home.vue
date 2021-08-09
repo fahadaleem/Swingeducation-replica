@@ -1,3 +1,5 @@
+
+
 <template>
   <div>
     <navbar></navbar>
@@ -15,6 +17,8 @@ import SepcializedSub from "../components/specializedSub/SpecializedSub.vue";
 import Partners from "../components/partners/Partners.vue";
 import Footer from "../components/footer/Footer.vue"
 
+
+// home component that is a homepage of the application
 export default {
   name: "Home",
   components: {

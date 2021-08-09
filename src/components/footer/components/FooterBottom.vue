@@ -1,7 +1,7 @@
 <template>
   <div class="bottom-footer">
       <div class="container">
-      <div class="row">
+      <div class="row" style="align-items:center">
           <div class="col-lg-4 d-flex justify-content-around">
               <div class="security-locks">
                   <img src="src/assets/trust-seal-business-badge.png" alt="privacy-security-lock" />
@@ -14,7 +14,7 @@
               </div>
           </div>
           <div class="col-lg-4">
-              <div class="social-icons text-center">
+              <div class="social-icons mt-4 text-center">
                   <label class="icon">
                       <i class="fa fa-facebook" aria-hidden="true"></i>
                   </label>
