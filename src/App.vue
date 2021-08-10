@@ -17,9 +17,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped >
   *{
     margin: 0 !important;
 font-family: 'Raleway', sans-serif;
   }
+
+  @font-face {
+  font-family: "Lucky Fellas";
+  src: local("Lucky Fellas W00 Regular.ttf"),
+   url(/src/fonts/lucky.ttf) format("truetype");
+}
 </style>

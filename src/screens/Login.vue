@@ -38,8 +38,8 @@ export default {
   overflow:hidden;
 }
 .right-section img{
-    width:100%;
-    height: 100%;
+    width:100% ;
+    height: 1000px;
 }
 .left-section {
   width: 40%;

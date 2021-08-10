@@ -12,8 +12,7 @@
           name="email"
           id="email-input"
           aria-describedby="helpId"
-          placeholder="Enter Email"
-          @change="setBtnDisabled()"
+          @change="email.length>0?btnDisabled=false:btnDisabled=true" 
         />
       </div>
       <div class="submit-btn-group my-4 py-2">
