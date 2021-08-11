@@ -7,14 +7,14 @@
           'flex-row-reverse': reverse
         }"
       >
-        <div class="col-lg-6 text-center p-0">
+        <div class="col-lg-6 col-md-6 text-center p-0">
           <img
             v-bind:src="img"
             alt="teacher-teaching-somthing"
             class="side-image"
           />
         </div>
-        <div class="col-lg-6" id="about-education">
+        <div class="col-lg-6 col-md-6" id="about-education">
           <h3 class="top-heading">
             {{ heading }}
           </h3>
@@ -59,7 +59,7 @@ export default {
 #about-education {
   /* padding: 70px 20px; */
   /* padding:0 25px; */
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 .top-heading {
   font-family: "Lucky Fellas";
@@ -92,6 +92,9 @@ export default {
   }
   .about {
     padding: 10px 20px;
+  }
+  .side-image {
+    width: 80%;
   }
 }
 </style>

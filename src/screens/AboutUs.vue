@@ -26,6 +26,7 @@
     <news></news>
     <howCanWeHelp></howCanWeHelp>
     <ourTeam></ourTeam>
+    <webFooter></webFooter>
   </div>
 </template>
 <script>
@@ -35,6 +36,7 @@ import SubstituteTeacher from "../components/AboutUS/SubstituteTeachers.vue";
 import News from "../components/AboutUS/News.vue";
 import HowCanWeHelp from "../components/AboutUS/HowCanWeHelp.vue";
 import OurTeam from "../components/AboutUS/OurTeam.vue"
+import Footer from "../components/footer/Footer.vue"
 
 
 export default {
@@ -44,7 +46,9 @@ export default {
     subsituteTeacher: SubstituteTeacher,
     news: News,
     howCanWeHelp: HowCanWeHelp,
-    ourTeam:OurTeam
+    ourTeam:OurTeam,
+    webFooter:Footer,
+
   },
   data() {
     return {};
