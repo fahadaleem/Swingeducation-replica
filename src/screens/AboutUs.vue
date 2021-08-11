@@ -25,6 +25,7 @@
     <subsituteTeacher></subsituteTeacher>
     <news></news>
     <howCanWeHelp></howCanWeHelp>
+    <ourTeam></ourTeam>
   </div>
 </template>
 <script>
@@ -33,13 +34,17 @@ import Navbar from "../components/Navbar.vue";
 import SubstituteTeacher from "../components/AboutUS/SubstituteTeachers.vue";
 import News from "../components/AboutUS/News.vue";
 import HowCanWeHelp from "../components/AboutUS/HowCanWeHelp.vue";
+import OurTeam from "../components/AboutUS/OurTeam.vue"
+
+
 export default {
   components: {
     aboutContainer: aboutContainer,
     topNavbar: Navbar,
     subsituteTeacher: SubstituteTeacher,
     news: News,
-    howCanWeHelp: HowCanWeHelp
+    howCanWeHelp: HowCanWeHelp,
+    ourTeam:OurTeam
   },
   data() {
     return {};
