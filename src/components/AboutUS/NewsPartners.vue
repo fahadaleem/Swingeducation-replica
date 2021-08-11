@@ -29,6 +29,9 @@ export default {
 };
 </script>
 <style scoped>
+.row{
+    margin:0 !important;
+}
 .partners {
   padding: 40px 0;
 }

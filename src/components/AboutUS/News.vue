@@ -57,4 +57,7 @@ export default {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+
+
 </style>
