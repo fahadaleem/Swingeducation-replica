@@ -22,13 +22,16 @@
       ]"
       reverse="true"
     ></aboutContainer>
+    <subsituteTeacher></subsituteTeacher>
+    
   </div>
 </template>
 <script>
 import aboutContainer from "../components/AboutUS/TopGrids.vue";
 import Navbar from "../components/Navbar.vue";
+import SubstituteTeacher from "../components/AboutUS/SubstituteTeachers.vue"
 export default {
-  components: { aboutContainer: aboutContainer, topNavbar: Navbar },
+  components: { aboutContainer: aboutContainer, topNavbar: Navbar, subsituteTeacher:SubstituteTeacher},
   data() {
     return {};
   }
