@@ -23,6 +23,7 @@
       reverse="true"
     ></aboutContainer>
     <subsituteTeacher></subsituteTeacher>
+    <news></news>
     
   </div>
 </template>
@@ -30,8 +31,9 @@
 import aboutContainer from "../components/AboutUS/TopGrids.vue";
 import Navbar from "../components/Navbar.vue";
 import SubstituteTeacher from "../components/AboutUS/SubstituteTeachers.vue"
+import News from "../components/AboutUS/News.vue"
 export default {
-  components: { aboutContainer: aboutContainer, topNavbar: Navbar, subsituteTeacher:SubstituteTeacher},
+  components: { aboutContainer: aboutContainer, topNavbar: Navbar, subsituteTeacher:SubstituteTeacher,news:News},
   data() {
     return {};
   }
