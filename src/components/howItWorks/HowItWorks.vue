@@ -1,7 +1,7 @@
 <template>
   <div class="how-it-work-section container">
     <h1 class="text-center mb-4 pb-4 font-weight-bold">How it works</h1>
-    <div class="row">
+    <div class="row m-0">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="right-section text-center px-3">
           <img v-bind:src="image" alt="teacher writing somthing" />

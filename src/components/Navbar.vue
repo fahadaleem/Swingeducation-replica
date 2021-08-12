@@ -69,7 +69,7 @@ export default {
   data() {
     return {
       isActive: false,
-      logo: "src/assets/swing-logo.png"
+      logo: "src/assets/good morning teacher-01.png"
     };
   },
   methods: {
@@ -94,8 +94,8 @@ export default {
 }
 /* set the height and width of navbar logo */
 .navbar-brand img {
-  width: 144px;
-  height: 50px;
+  width: 100%;
+  height: 80px;
 }
 /* align both logo and navlink to center and set the adjustment */
 .navbar-nav {

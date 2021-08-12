@@ -2,7 +2,7 @@
     <div class="specialized-subject-section container">
         <h1 class="text-center font-weight-bold">{{ headingText }}</h1>
         <p class="lead font-weight-normal text-center section-description font-weight-bold">Learning looks a little different lately, and Swing is offering new, flexible solutions. Access our on-demand network of qualified educators to meet this year’s unique needs.</p>
-        <div class="row my-4 py-4">
+        <div class="row mx-0 my-4 py-4">
             <template v-for="(data,index) in cardData">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-3" v-bind:key="index">
                 <subCard v-bind:title="data.title" v-bind:description="data.description"></subCard>

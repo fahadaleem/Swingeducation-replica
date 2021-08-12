@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <!-- <home></home> -->
+    <home></home>
     <!-- <login></login> -->
-    <aboutUs></aboutUs>
+    <!-- <aboutUs></aboutUs> -->
+    <!-- <faq></faq> -->
   </div>
 </template>
 
@@ -10,9 +11,10 @@
 import Home from "./screens/Home.vue";
 import Login from "./screens/Login.vue";
 import AboutUs from "./screens/AboutUs.vue";
+import FAQ from "./screens/FAQ.vue"
 
 export default {
-  components: { home: Home, login: Login, aboutUs: AboutUs },
+  components: { home: Home, login: Login, aboutUs: AboutUs, faq:FAQ },
   data() {
     return {};
   }

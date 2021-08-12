@@ -30,7 +30,7 @@
   </div>
 </template>
 <script>
-import aboutContainer from "../components/AboutUS/TopGrids.vue";
+import AboutContainer from "../components/AboutUS/TopGrids.vue";
 import Navbar from "../components/Navbar.vue";
 import SubstituteTeacher from "../components/AboutUS/SubstituteTeachers.vue";
 import News from "../components/AboutUS/News.vue";
@@ -41,7 +41,7 @@ import Footer from "../components/footer/Footer.vue"
 
 export default {
   components: {
-    aboutContainer: aboutContainer,
+    aboutContainer: AboutContainer,
     topNavbar: Navbar,
     subsituteTeacher: SubstituteTeacher,
     news: News,
