@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <home></home>
+    <!-- <home></home> -->
     <!-- <login></login> -->
     <!-- <aboutUs></aboutUs> -->
     <!-- <faq></faq> -->
+    <router-view></router-view>
   </div>
 </template>
 

@@ -47,7 +47,9 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <router-link to="/about" class="nav-link">
+          About Us
+          </router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Reading + Resources</a>
@@ -95,7 +97,7 @@ export default {
 /* set the height and width of navbar logo */
 .navbar-brand img {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
 }
 /* align both logo and navlink to center and set the adjustment */
 .navbar-nav {
