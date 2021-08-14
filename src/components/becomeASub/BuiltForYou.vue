@@ -86,6 +86,12 @@ export default {
   text-align: center;
   font-family: "Lucky Fellas";
   color: #0073cf;
-  font-size: calc(60px + 60 * ((100vw - 320px) / 680));
+  font-size: 8em;
+}
+
+@media (max-width:360px){
+    .built-for-you-section .container{
+        padding:0 !important;
+    }
 }
 </style>

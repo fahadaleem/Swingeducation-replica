@@ -44,11 +44,17 @@ export default {
   padding: 75px 0;
 }
 .we-are-here-section-heading {
-  font-size: calc(35px + 10 * ((100vw - 320px) / 680));
+  font-size:  2.5em;
   color: rgb(40, 60, 93);
   font-weight: bold;
 }
 .we-are-here-section-content {
   padding: 55px 25px;
+}
+
+@media (max-width:360px){
+    .we-are-here-section-content{
+        padding:55px 5px !important;
+    }
 }
 </style>

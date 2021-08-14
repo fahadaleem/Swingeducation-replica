@@ -4,7 +4,7 @@
     <topHeader />
     <partners />
     <howItWorks :image="howItWorksImage" />
-    <hr class="container divider" />
+    <hr class="divider" />
     <!-- <markets /> -->
     <builtForYou />
     <weAreHere />
@@ -47,5 +47,8 @@ export default {
 <style scoped>
 .divider {
   background-color: #000000;
+  width:80%;
+  margin:25px auto;
+  max-width:1000px;
 }
 </style>
