@@ -26,9 +26,7 @@ components: {
     steps: Stepper
   },
   data() {
-    return {
-      image: "src/assets/photo_howitworks.png"
-    };
+   
   }
 };
 </script>
