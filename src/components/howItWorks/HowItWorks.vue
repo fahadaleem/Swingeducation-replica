@@ -21,7 +21,8 @@
 <script>
 import Stepper from "./components/HowItWorksStepper.vue";
 export default {
-  components: {
+props:["image"],
+components: {
     steps: Stepper
   },
   data() {

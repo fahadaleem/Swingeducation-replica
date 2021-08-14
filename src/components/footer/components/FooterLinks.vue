@@ -4,9 +4,9 @@
     <ul class="footer-menu">
       <template v-for="(menu, index) in menuLinks">
         <li v-bind:key="index" class="footer-item">
-          <a class="footer-link" v-bind:href="menu.pageLink">{{
-            menu.pageName
-          }}</a>
+          <router-link v-bind:to="menu.pageLink">
+            {{ menu.pageName }}</router-link
+          >
         </li>
       </template>
     </ul>

@@ -2,6 +2,7 @@ import Home from "./screens/Home.vue";
 import AboutUs from "./screens/AboutUs.vue";
 import FAQ from "./screens/FAQ";
 import Login from "./screens/Login";
+import BecomeASub from "./screens/BecomeASub"
 export default [
   {
     path: "/",
@@ -19,5 +20,10 @@ export default [
   {
     path: "/login",
     component: Login
+  },
+  {
+      path:"/become-a-sub",
+      component:BecomeASub
   }
+
 ];

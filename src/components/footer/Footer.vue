@@ -38,7 +38,7 @@ export default {
           menuLinks: [
             {
               pageName: "How it works",
-              pageLink: "#"
+              pageLink: "/become-a-sub"
             },
             {
               pageName: "Jobs",
