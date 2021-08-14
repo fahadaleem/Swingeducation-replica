@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <navbar></navbar>
+    <topNavbar></topNavbar>
     <topHeader></topHeader>
     <features></features>
     <howItWorks></howItWorks>
@@ -18,6 +18,7 @@ import HowItWorks from "../components/howItWorks/HowItWorks.vue";
 import SepcializedSub from "../components/specializedSub/SpecializedSub.vue";
 import Partners from "../components/partners/Partners.vue";
 import Footer from "../components/footer/Footer.vue"
+import Navbar from "../components/Navbar.vue";
 
 
 
@@ -30,7 +31,9 @@ export default {
     specializedSub: SepcializedSub,
     partners: Partners,
     webFooter:Footer,
-    topHeader:TopHeader
+    topHeader:TopHeader,
+    topNavbar: Navbar,
+
   }
 };
 </script>

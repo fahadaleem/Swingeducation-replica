@@ -10,7 +10,7 @@ const router = new vueRouter({
   routes: Routes
 });
 
-Vue.component("navbar", Navbar);
+// Vue.component("navbar", Navbar);
 
 new Vue({
   el: "#app",
